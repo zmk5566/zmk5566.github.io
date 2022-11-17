@@ -1,11 +1,111 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <style>
+        body {
+            text-align: center;
+            background: aliceblue;
+            
+        }
+
+        ul
+        {
+            margin:0em;
+            display:flex;  
+            padding-inline-start: 0em;
+            list-style: oriya;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            
+
+        }
+        li{
+            margin: 1em;
+            text-align: center;
+            width: 5em;
+        }
+        li:hover{
+            background-color: #f1f1f1;
+        }
+        .active{
+            background-color: #4CAF50;
+            color: white;
+        }
+
+    </style>
+    <title>Kenny Ma's Homepage</title>
+    
 <body>
 
+<img src="res/avatar.jpg" alt="Kenny Ma's Avatar" width="300" height="300">
 <h1>Kenny Ma's Homepage</h1>
 
-<p>Home Sweet Home</p>
+<div class ="description">
+    <p>very home, so many pages</p>
+</div>
+
+<div class="menu">
+    <ul>
+        <li>Home</a></li>
+        <li href="#"><a href="#">Research Projects</a></li>
+        <li href="#"><a href="#">Random Works Memory</a></li>
+        <li href="#"><a href="#">About Me</a></li>
+        <li href="#"><a href="#">CV</a></li>
+      </ul>
+</div>
+
 
 </body>
+
+<footer>
+    <script>
+    var li_list = ["armenian","bengali","cambodian","circle","cjk-earthly-branch","cjk-heavenly-stem","cjk-ideographic","devanagari","disc","ethiopic-halehame","georgian","gujarati","gurmukhi","hangul","hangul-consonant","hebrew","hiragana","hiragana-iroha","kannada","katakana-iroha","khmer","korean-hangul-formal","korean-hanja-informal","lao","lower-alpha","lower-greek","malayalam","mongolian","myanmar","oriya","persian","simp-chinese-formal","simp-chinese-informal","square","telugu","thai","tibetan","trad-chinese-formal","upper-roman","urdu"];
+
+    var counter = 0 ;
+
+
+
+    function get_random_list(){
+        counter++;
+
+        document.querySelector("body").style.backgroundColor = "hsl("+(counter)%255+"255,20%,90%)";
+
+        if (counter > 15){
+            document.getElementById("that-button").style.display = "inline";
+        }
+        
+        var elems = document.querySelectorAll('li');
+        var index = 0, length = elems.length; 
+        var get_a_random_random = Math.floor((Math.random()*li_list.length-1) + 0);
+
+        for ( ; index < length; index++ ) {
+            elems[index].style.listStyleType = li_list[get_a_random_random];
+        }
+    
+
+
+        
+    }
+
+    get_random_list();
+
+    const myInterval = setInterval(get_random_list, 500);
+
+
+    function stop_this(){
+        clearInterval(myInterval);
+        document.getElementById("that-button").style.display = "none";
+    }
+
+
+    </script>
+
+    <p>© 2022 Kenny Ma</p>
+    <button id="that-button" onclick="stop_this()" style="display:none">stop this random style nonsense</button>
+</footer>
 </html>
 
