@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <style>
+        h1{
+            background-color: #880e4f;
+            color:aliceblue;
+        }
         body {
             text-align: center;
             background: aliceblue;
@@ -63,7 +67,7 @@
 <footer>
     <script>
     var li_list = ["armenian","bengali","cambodian","circle","cjk-earthly-branch","cjk-heavenly-stem","cjk-ideographic","devanagari","disc","ethiopic-halehame","georgian","gujarati","gurmukhi","hangul","hangul-consonant","hebrew","hiragana","hiragana-iroha","kannada","katakana-iroha","khmer","korean-hangul-formal","korean-hanja-informal","lao","lower-alpha","lower-greek","malayalam","mongolian","myanmar","oriya","persian","simp-chinese-formal","simp-chinese-informal","square","telugu","thai","tibetan","trad-chinese-formal","upper-roman","urdu"];
-
+    var color_list =["red","blue","green","yellow","orange","purple","pink","brown","grey","black","white"];
     var counter = 0 ;
 
 
@@ -72,7 +76,7 @@
         counter++;
 
         document.querySelector("body").style.backgroundColor = "hsl("+(counter)%255+"255,20%,90%)";
-
+        document.querySelector("h1").style.backgroundColor = "hsl("+(counter+125)%255+"255,100%,38%)";
         if (counter > 15){
             document.getElementById("that-button").style.display = "inline";
         }
