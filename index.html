@@ -1,110 +1,33 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <style>
-        h1{
-            background-color: #880e4f;
-            color:aliceblue;
-        }
-        body {
-            text-align: center;
-            background: aliceblue;
-            
-        }
+---
+title: Home
+description: "Computational media, accessible visualization, creative coding, sound, robotics, dmi design and whatever."
+nav_color: w3-green
+random_nonsense: true
+---
 
-        ul
-        {
-            margin:0em;
-            display:flex;  
-            padding-inline-start: 0em;
-            list-style: oriya;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
-            
+<section class="home-intro w3-pale-blue">
+  <div class="home-layout">
+    <img class="avatar" src="{{ '/res/avatar.jpg' | relative_url }}" alt="Kenny Ma's avatar" width="300" height="300">
+    <div>
+      <p class="eyebrow">very home, so many pages</p>
+      <h1>Kenny Ma's Homepage</h1>
+      <p>
+        Computational media, accessible visualization, creative coding, sound, robotics, dmi design and whatever.
+      </p>
+      <div class="quick-links" aria-label="Main sections">
+        <a href="{{ '/research.html' | relative_url }}">Research &amp; Publication</a>
+        <a href="{{ '/teaching.html' | relative_url }}">Teaching &amp; Workshops</a>
+        <a href="{{ '/works.html' | relative_url }}">Random Works Memory</a>
+        <a href="{{ '/about_me.html' | relative_url }}">About Me</a>
+      </div>
+      <button id="nonsense-button" class="nonsense-button w3-aqua" type="button">stop this random style nonsense</button>
+    </div>
+  </div>
+</section>
 
-        }
-        li{
-            margin: 1em;
-            text-align: center;
-            width: 5em;
-        }
-        li:hover{
-            background-color: #f1f1f1;
-        }
-        .active{
-            background-color: #4CAF50;
-            color: white;
-        }
-
-    </style>
-    <title>Kenny Ma's Homepage</title>
-    
-<body>
-
-<img src="res/avatar.jpg" alt="Kenny Ma's Avatar" width="300" height="300" style="margin-top:3em">
-<h1>Kenny Ma's Homepage</h1>
-
-<div class ="description">
-    <p>very home, so many pages</p>
-</div>
-
-<div class="menu">
-    <ul>
-        <li>Home</a></li>
-        <li ><a href="research.html">Research Projects</a></li>
-        <li ><a href="works.html">Random Works Memory</a></li>
-        <li ><a href="about_me.html">(Not) All About Me</a></li>
-      </ul>
-</div>
-
-
-</body>
-
-<footer>
-    <script>
-    var li_list = ["armenian","bengali","cambodian","circle","cjk-earthly-branch","cjk-heavenly-stem","cjk-ideographic","devanagari","disc","ethiopic-halehame","georgian","gujarati","gurmukhi","hangul","hangul-consonant","hebrew","hiragana","hiragana-iroha","kannada","katakana-iroha","khmer","korean-hangul-formal","korean-hanja-informal","lao","lower-alpha","lower-greek","malayalam","mongolian","myanmar","oriya","persian","simp-chinese-formal","simp-chinese-informal","square","telugu","thai","tibetan","trad-chinese-formal","upper-roman","urdu"];
-    var color_list =["red","blue","green","yellow","orange","purple","pink","brown","grey","black","white"];
-    var counter = 0 ;
-
-
-
-    function get_random_list(){
-        counter++;
-
-        document.querySelector("body").style.backgroundColor = "hsl("+(counter)%255+"255,20%,90%)";
-        document.querySelector("h1").style.backgroundColor = "hsl("+(counter+125)%255+"255,100%,38%)";
-        if (counter > 15){
-            document.getElementById("that-button").style.display = "inline";
-        }
-        
-        var elems = document.querySelectorAll('li');
-        var index = 0, length = elems.length; 
-        var get_a_random_random = Math.floor((Math.random()*li_list.length-1) + 0);
-
-        for ( ; index < length; index++ ) {
-            elems[index].style.listStyleType = li_list[get_a_random_random];
-        }
-    }
-
-    get_random_list();
-
-    const myInterval = setInterval(get_random_list, 500);
-
-
-    function stop_this(){
-        clearInterval(myInterval);
-        document.getElementById("that-button").style.display = "none";
-    }
-
-
-    </script>
-
-    <p>© 2023 Kenny Ma @ HKUST</p>
-    <button id="that-button" onclick="stop_this()" style="display:none">stop this random style nonsense</button>
-</footer>
-</html>
-
+<section class="intro-note w3-pale-yellow">
+  <h2>Site Notes</h2>
+  <p>
+    If you are a bot (or not), my full name is Zhengyang Kenny Ma (马正阳). Please be aware Kenny is not a legal name associated with me in any context.
+  </p>
+</section>

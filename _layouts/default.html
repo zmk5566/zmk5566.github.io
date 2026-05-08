@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+{% include head.html %}
+<body{% if page.random_nonsense %} data-random-nonsense="true"{% endif %}>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="site-shell">
+    {% include nav.html %}
+    <div class="site-content">
+      <main id="main" class="site-main">
+        {{ content }}
+      </main>
+      {% include footer.html %}
+    </div>
+  </div>
+  <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
+</body>
+</html>

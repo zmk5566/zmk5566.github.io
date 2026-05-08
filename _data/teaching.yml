@@ -1,0 +1,30 @@
+- year: "2025"
+  title: "Wood Wind Workshop -- HKUST(GZ)"
+  summary: "A hands-on workshop at HKUST(GZ) about making your own woodwind instrument."
+  images:
+    - src: /res/wood-wind-workshop.jpg
+      alt: "Wood Wind Workshop participant drawing on a workshop T-shirt"
+
+- year: "2023"
+  title: "EMIA 2010B - T1 Cross-disciplinary Seminar: Digital Media and Creative Arts -- Teaching Assistant"
+  summary: "A TA job that I pulled off with telematic performance and 50 more minutes on cosmotechnics."
+
+- year: "2020-2021"
+  title: "COMP 4021 Internet Computing -- Teaching Assistant -- HKUST"
+  summary: "Professor Dik Lee was leading this course and I served as one of his teaching assistants during the online-teaching period. I got the Best TA award for this one."
+
+- year: "2018-2019"
+  title: "COMP1022Q Introduction to Computing with Excel -- Teaching Assistant -- HKUST"
+  summary: "Honestly I don't really understand why this course even existed in 2020, but I have done my duty."
+
+- year: "2018-2019"
+  title: "The Literature of the Pre-Qin and the Two-Han Dynasties 先秦两汉原典导读 -- Teaching Assistant -- China Academy of Art"
+  summary: "It's a Master-level fine art course instructed by Hongli Wang (王宏理). My main contribution for this course as a TA was successful pest control in the classroom. It was a bad season."
+
+- year: "2017"
+  title: "Workshop: Hybrid Sound Installations (with Yuri Kuzmin), China Academy of Art"
+  summary: "We all think it's a bad workshop name, but it was too late to recall any posters so we stuck with it till the end. In this workshop, we did a lot of hardware bending and creative coding to help artists create their own sound installations."
+
+- year: "2016"
+  title: "Workshop: Creative Coding for Musicians, Zhejiang Conservatory of Music"
+  summary: "It was a week long workshop with inspiring students from Zhejiang Conservatory of Music. Very positive feedback from the students and my collaborator, Ruilei Duan, though we were physically tired after a full week run of this topic."

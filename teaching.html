@@ -1,0 +1,43 @@
+---
+title: "Teaching & Workshops"
+description: "Teaching assistantships and creative coding workshops by Kenny Ma."
+nav_color: w3-deep-orange
+---
+
+<header class="page-header w3-deep-orange">
+  <h1>Teaching &amp; Workshops</h1>
+  <p>
+    I never thought I would perform this much teaching so far in my life but I have done them anyway.
+  </p>
+</header>
+
+<section class="intro-note w3-pale-yellow">
+  <p>
+    I received a scholarship (Professor Samuel Chanson Scholarship) for being one of the best teaching assistants in the computer science engineering department, HKUST, which feels like the biggest compliment I have ever received in my life so far.
+  </p>
+  <p>
+    A few workshops related with creative coding in music are hosted by me because I like the idea of gathering.
+  </p>
+</section>
+
+<section class="entry-list" aria-labelledby="teaching-list-title">
+  <h2 id="teaching-list-title" class="section-heading w3-deep-orange">Teaching &amp; Workshops</h2>
+  {% for item in site.data.teaching %}
+    <article class="entry">
+      <div>
+        <span class="entry-year w3-orange">{{ item.year }}</span>
+      </div>
+      <div>
+        <h2>{{ item.title }}</h2>
+        {% if item.images %}
+          <div class="media-grid">
+            {% for image in item.images %}
+              <img src="{{ image.src | relative_url }}" alt="{{ image.alt }}" loading="lazy">
+            {% endfor %}
+          </div>
+        {% endif %}
+        <p>{{ item.summary }}</p>
+      </div>
+    </article>
+  {% endfor %}
+</section>

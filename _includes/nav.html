@@ -1,0 +1,13 @@
+<nav class="site-nav w3-container {{ page.nav_color | default: 'w3-green' }}" aria-label="Primary navigation">
+  <a class="brand" href="{{ '/' | relative_url }}">{{ site.author }}</a>
+  <p class="nav-kicker">very home, so many pages</p>
+  <ul>
+    {% for item in site.data.navigation %}
+      <li>
+        <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>
+          {{ item.label }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

@@ -1,0 +1,10 @@
+- label: Home
+  url: /
+- label: Research & Publication
+  url: /research.html
+- label: Teaching & Workshops
+  url: /teaching.html
+- label: Random Works Memory
+  url: /works.html
+- label: About Me
+  url: /about_me.html

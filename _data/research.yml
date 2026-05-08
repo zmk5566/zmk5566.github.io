@@ -1,0 +1,126 @@
+- year: "2026"
+  title: 'Qianji: A Resilient Framework for Orchestrating "A Thousand Machines" in Distributed Performance'
+  authors: "Ruilei Duan, Z Ma"
+  corresponding_author: "Z Ma"
+  venue: "New Interfaces for Musical Expression (NIME 2026), London"
+  status: "Accepted"
+  tags:
+    - HCI
+    - NIME
+    - MUSIC
+  comment: ""
+
+- year: "2026"
+  title: "Orchid-Creator: An Authoring Tool Supporting LLM-Driven Interactive Narrative Creation"
+  authors: "Z Wu, Serkan Kumyol, Z Ma, T Braud"
+  venue: "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems"
+  tags:
+    - HCI
+  link:
+    label: "Google Scholar"
+    url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gLL_wO4AAAAJ&citation_for_view=gLL_wO4AAAAJ:eQOLeE2rZwMC"
+  comment: ""
+
+- year: "2025"
+  title: "Ready or not? Investigating in-service teachers' integration of learning analytics dashboard for assessing students' collaborative problem solving in K-12 classrooms"
+  authors: "Y Liu, X Hu, JTD Ng, Z Ma, X Lai"
+  venue: "Education and Information Technologies 30 (2), 1745-1776"
+  tags:
+    - HCI
+    - EDUCATION
+  link:
+    label: "Google Scholar"
+    url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gLL_wO4AAAAJ&citation_for_view=gLL_wO4AAAAJ:9yKSN-GCB0IC"
+  comment: ""
+
+- year: "2025"
+  title: "Multimodal learning analytics for game-based assessment of collaborative problem solving skills among young students"
+  authors: "Y Liu, Z Ma, JTD Ng, X Hu"
+  venue: "Proceedings of the 15th International Learning Analytics and Knowledge Conference"
+  tags:
+    - HCI
+    - EDUCATION
+  link:
+    label: "Google Scholar"
+    url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gLL_wO4AAAAJ&citation_for_view=gLL_wO4AAAAJ:Tyk-4Ss8FVUC"
+  comment: ""
+
+- year: "2025"
+  title: "AIR-HLoc: Adaptive Retrieved Images Selection for Efficient Visual Localisation"
+  authors: "C Liu, J Jiao, H Huang, Z Ma, D Kanoulas, T Braud"
+  venue: "2025 IEEE International Conference on Robotics and Automation (ICRA), 11698"
+  tags:
+    - ROBOTICS
+  link:
+    label: "Google Scholar"
+    url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gLL_wO4AAAAJ&citation_for_view=gLL_wO4AAAAJ:zYLM7Y9cAGgC"
+  comment: ""
+
+- year: "2024"
+  title: "Adopt or abandon: Facilitators and barriers of in-service teachers' integration of game learning analytics in K-12 classrooms?"
+  authors: "Y Liu, JTD Ng, X Hu, Z Ma, X Lai"
+  venue: "Computers & Education 209, 104951"
+  tags:
+    - HCI
+    - EDUCATION
+  link:
+    label: "Google Scholar"
+    url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gLL_wO4AAAAJ&citation_for_view=gLL_wO4AAAAJ:d1gkVwhDpl0C"
+  comment: ""
+
+- year: "2024"
+  title: "Towards multimodal learning analytics of game-based collaborative problem solving among primary school students"
+  authors: "Y Liu, JTD Ng, X Hu, Z Ma"
+  venue: "2024 IEEE International Conference on Advanced Learning Technologies (ICALT)"
+  tags:
+    - HCI
+    - EDUCATION
+  link:
+    label: "Google Scholar"
+    url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gLL_wO4AAAAJ&citation_for_view=gLL_wO4AAAAJ:2osOgNQ5qMEC"
+  comment: ""
+
+- year: "2024"
+  title: "Locality and digital musical instruments design: a user study"
+  authors: "I Kuzmin, Z Ma, R Masu"
+  venue: "Proceedings of the 19th International Audio Mostly Conference: Explorations"
+  tags:
+    - HCI
+    - NIME
+    - MUSIC
+  link:
+    label: "Google Scholar"
+    url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gLL_wO4AAAAJ&citation_for_view=gLL_wO4AAAAJ:qjMakFHDy7sC"
+  comment: ""
+
+- year: "2024"
+  title: "Toward Musical Cosmotechnics: the case of zhu nao 竹脑—a bamboo-based instrument"
+  authors: "I Kuzmin, Z Ma, R Masu"
+  venue: "Proceedings of the International Conference on New Interfaces for Musical Expression"
+  tags:
+    - NIME
+    - MUSIC
+  link:
+    label: "Google Scholar"
+    url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gLL_wO4AAAAJ&citation_for_view=gLL_wO4AAAAJ:IjCSPb-OGe4C"
+  comment: ""
+
+- year: "2024"
+  title: "Pharosphones: interactive audience participation using light"
+  authors: "Z Ma, I Kuzmin, D Ruilei, R Masu"
+  venue: "Proceedings of the International Conference on New Interfaces for Musical Expression"
+  tags:
+    - HCI
+    - NIME
+    - MUSIC
+  link:
+    label: "Google Scholar"
+    url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gLL_wO4AAAAJ&citation_for_view=gLL_wO4AAAAJ:UeHWp8X0CEIC"
+  comment: ""
+
+- year: "2015"
+  title: "Strands Project (Robotics)"
+  summary: "I was an undergraduate student in BSc Computer Science at University of Birmingham back in the days. I don't think I have done much in this project, but it is the first research project I have ever participated in. I actually learnt a lot by watching other people and robots. This project inspired me to put a lot of effort into robotics and the field of doing research. Our team ended up scoring 2nd prize in the UK-RAS field robotics challenge in 2016."
+  tags:
+    - ROBOTICS
+  comment: ""

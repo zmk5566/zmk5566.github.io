@@ -1,0 +1,18 @@
+title: "Kenny Ma's Homepage"
+description: "Personal homepage of Kenny Ma, covering computational media, accessible visualization, creative coding, research, teaching, and random works."
+url: "https://zmk5566.github.io"
+baseurl: ""
+lang: "en"
+author: "Kenny Ma"
+email: "zmaaf@connect.ust.hk"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      image: /res/avatar.jpg
+
+exclude:
+  - README.md
+  - .DS_Store

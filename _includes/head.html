@@ -1,0 +1,52 @@
+{%- assign meta_description = page.description | default: site.description | strip_html | normalize_whitespace -%}
+{%- assign meta_title = site.title -%}
+{%- if page.title and page.title != "Home" -%}
+  {%- assign meta_title = page.title | append: " | " | append: site.title -%}
+{%- endif -%}
+{%- assign meta_image = page.image | default: "/res/avatar.jpg" | absolute_url -%}
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ meta_description | escape }}">
+  <meta name="author" content="{{ site.author | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+  <title>{{ meta_title | escape }}</title>
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.title | escape }}">
+  <meta property="og:title" content="{{ meta_title | escape }}">
+  <meta property="og:description" content="{{ meta_description | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ meta_image }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ meta_title | escape }}">
+  <meta name="twitter:description" content="{{ meta_description | escape }}">
+  <meta name="twitter:image" content="{{ meta_image }}">
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": {{ site.author | jsonify }},
+    "url": {{ site.url | jsonify }},
+    "image": {{ meta_image | jsonify }},
+    "jobTitle": "PhD candidate",
+    "affiliation": {
+      "@type": "CollegeOrUniversity",
+      "name": "Hong Kong University of Science and Technology"
+    },
+    "knowsAbout": [
+      "Computational media",
+      "Accessible visualization",
+      "Human-computer interaction",
+      "Creative coding",
+      "Robotics",
+      "Sound installation"
+    ]
+  }
+  </script>
+</head>

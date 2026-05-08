@@ -1,0 +1,61 @@
+- year: "2026"
+  title: "The Discourse of an Instrument, and a Thousand Machines 弦语千机"
+  summary: "A Guqin performance powered by Qianji, turning audience smartphones into a distributed luminous and acoustic field. The largest live array reached 421 audience phones, which is honestly a lot of tiny machines behaving together."
+  media_layout: split
+  images:
+    - src: /res/qianji-teaser.jpg
+      alt: "Audience smartphones joined to the Qianji framework during the performance"
+    - src: /res/qianji-guqin-stage-teaser.jpg
+      alt: "Guqin performer on stage during The Discourse of an Instrument, and a Thousand Machines"
+  link:
+    label: "Project page"
+    url: "https://zmk5566.github.io/qianji/"
+
+- year: "2022"
+  title: "Random Walk Memory"
+  summary: "I have a pretty casual (but important!) story to share about this project."
+  images:
+    - src: /res/random_walk.jpg
+      alt: "Random Walk Memory street documentation"
+    - src: /res/random_board.jpg
+      alt: "Random Walk Memory board"
+  story:
+    - "I was on a trip visiting my friend Yvonne Huang in Chicago, whom I met back at China Academy of Art. We had a good time, and after a few conversations I couldn't stop noticing her crazy obsession with Yin Yang 阴阳五行 and Mei Hua Yi Shu 梅花易数. Since I was curious, she explained the mathematical algorithm for fortune-telling your fate based on one random number that you come up with."
+    - "She clearly had a point. At that time, she was learning BASIC on an emulator, and the teacher introduced it with a one-liner that generates a matrix. She told me she had already encoded the matrix with something similar to how Ba Gua works, and planned to find points of interest guided by this BASIC-generated matrix."
+    - "At this point, I did not really want to stop her from doing anything anymore. But still, I couldn't stop myself from commenting: \"So, in this way, you are going to do a random walk guided by this one-liner algorithm? You would be the computer agent?\""
+    - "I honestly thought it was part of her concept in her artwork, the concept of random walk like we use in Computer Science. But instead she said: \"No, I have no idea what you are talking about, but you see, my fortune telling is working. There are little angels guiding me at this moment. Please let me speak out the things of the unknown.\""
+    - "After that, we spent a good 4 hours walking around Chicago purely by this one-liner-generated rule map. She was having a lot of fun and tried to find colors of significance in each specific place. We walked past all 78 (13*6) points from 4 p.m. till night. We even ran into the Chicago Halloween parade."
+    - "It was a good time. I also helped her build a color extraction algorithm to extract her point-of-interest colors from the street, then build it into a VAST system. I guess Yin Yang did work here for us at the end of the day."
+  story_images:
+    - src: /res/one_liner.jpg
+      alt: "BASIC one-liner that generates a matrix"
+
+- year: "2019"
+  title: "The Nerfed Moria 莫伊拉，再次被削弱"
+  summary: "This was part of my Future's Future Series Project. Yuri Kuzmin made the synth in response to his fantasy about the Chinese contemporary calligraphy scene in the FUTURE. I built the performance around that idea with a poem I wrote, inspired by the video game Overwatch, of course."
+  video:
+    src: /res/the_nerfed_moria.mp4
+    label: "The Nerfed Moria video"
+
+- year: "2018"
+  title: "Future's Future"
+  summary: "Yuri Kuzmin and I were inspired by Yuk Hui's interview. We made a Han Mai (喊麦, a Chinese meme version of a mic controller) performance to celebrate the opening of the exhibition. A studio version of the song, named \"The Transhumanism of Artificial Intelligence is the Nihilism of the 21st Century\", was recorded later."
+  images:
+    - src: /res/ff.jpg
+      alt: "Future's Future performance documentation"
+    - src: /res/ff_2.jpg
+      alt: "Future's Future exhibition documentation"
+
+- year: "2017"
+  title: "The Scapes"
+  summary: "Data as Violence. A sound installation piece."
+  images:
+    - src: /res/the_scapes.jpg
+      alt: "The Scapes sound installation"
+
+- year: "2016"
+  title: "Detached Organ"
+  summary: "A contemporary music piece in collaboration with Ruilei Duan. With help from computer vision and robotics, we were able to turn the audience's phones into instruments that could be instructed, so everyone could participate."
+  video:
+    src: /res/detached_organ(2016).mp4
+    label: "Detached Organ video"
