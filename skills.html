@@ -1,0 +1,56 @@
+---
+title: "Skills & Methods"
+description: "A W3Schools-flavored map of Kenny Ma's skills, methods, and recurring tools."
+nav_color: w3-teal
+---
+
+<header class="page-header w3-teal">
+  <h1>Skills &amp; Methods</h1>
+  <p>
+    I work across software, sound, hardware, and performance. This page is not a ranked list of technologies. It is closer to a map of the things I keep using to make projects happen.
+  </p>
+</header>
+
+<section class="intro-note w3-pale-green">
+  <h2>Very Short Version</h2>
+  <p>
+    I prototype systems where code, instruments, animals, and machines behave together.
+  </p>
+</section>
+
+<section class="skills-manual" aria-labelledby="skills-list-title">
+  <h2 id="skills-list-title" class="section-heading w3-green">Skill Areas</h2>
+  {% for skill in site.data.skills %}
+    <article class="skill-topic">
+      <div class="skill-topic-label {{ skill.color }}">
+        <span>Topic {{ forloop.index }}</span>
+        <h2>{{ skill.title }}</h2>
+      </div>
+      <div class="skill-topic-body">
+        <p>{{ skill.summary }}</p>
+        <div class="skill-tags" aria-label="{{ skill.title }} tags">
+          {% for tag in skill.tags %}
+            <span class="skill-tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+        <p class="skill-used">
+          <strong>Used in:</strong>
+          {% for item in skill.used_in %}
+            <span>{{ item }}</span>{% unless forloop.last %} / {% endunless %}
+          {% endfor %}
+        </p>
+      </div>
+    </article>
+  {% endfor %}
+</section>
+
+<section class="method-strip w3-pale-yellow" aria-labelledby="methods-title">
+  <h2 id="methods-title">Methods I Keep Reusing</h2>
+  <div class="method-tags">
+    <span>prototype</span>
+    <span>perform</span>
+    <span>teach</span>
+    <span>cybernetics</span>
+    <span>cosmotechnics</span>
+  </div>
+</section>

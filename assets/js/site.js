@@ -46,6 +46,7 @@
 
   const stopButton = document.getElementById("nonsense-button");
   const navItems = document.querySelectorAll(".site-nav li");
+  const stopButtonDelayTicks = 8;
   let counter = 0;
 
   function setTheme(theme) {
@@ -63,7 +64,7 @@
       item.style.listStyleType = style;
     });
 
-    if (counter > 15 && stopButton) {
+    if (counter > stopButtonDelayTicks && stopButton) {
       stopButton.classList.add("is-visible");
     }
   }

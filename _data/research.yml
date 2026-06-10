@@ -2,8 +2,7 @@
   title: 'Qianji: A Resilient Framework for Orchestrating "A Thousand Machines" in Distributed Performance'
   authors: "Ruilei Duan, Z Ma"
   corresponding_author: "Z Ma"
-  venue: "New Interfaces for Musical Expression (NIME 2026), London"
-  status: "Accepted"
+  venue: "Accepted to New Interfaces for Musical Expression (NIME 2026), London. Proceedings forthcoming."
   tags:
     - HCI
     - NIME
@@ -118,8 +117,70 @@
     url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gLL_wO4AAAAJ&citation_for_view=gLL_wO4AAAAJ:UeHWp8X0CEIC"
   comment: ""
 
+- year: "2026"
+  title: "HexBlocks"
+  category: project
+  summary: "HexBlocks is an open-source software-hardware framework for on-the-fly prototyping of reconfigurable physical interfaces."
+  tags:
+    - HCI
+    - ROBOTICS
+  animation: hexblocks-ambient
+  link:
+    label: "Presentation site"
+    url: "https://zmk5566.github.io/Hexblocks/"
+  comment: ""
+
+- year: "2023"
+  title: "Zhu Nao Project 竹腦"
+  category: project
+  summary: "Zhu Nao is a bamboo-based digital musical instrument grounded in Chinese cultural context. The project explores musical cosmotechnics, locality, and how local cosmologies can shape DMI design."
+  tags:
+    - NIME
+    - MUSIC
+  images:
+    - src: /res/zhunao.jpg
+      alt: "Zhu Nao bamboo-based digital musical instrument installed among plants"
+      wide: true
+  related_publications:
+    - year: "2024"
+      title: "Toward Musical Cosmotechnics: the case of zhu nao 竹脑—a bamboo-based instrument"
+      url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gLL_wO4AAAAJ&citation_for_view=gLL_wO4AAAAJ:IjCSPb-OGe4C"
+    - year: "2024"
+      title: "Locality and digital musical instruments design: a user study"
+      url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gLL_wO4AAAAJ&citation_for_view=gLL_wO4AAAAJ:qjMakFHDy7sC"
+  comment: ""
+
+- year: "2019-2021"
+  title: "Digital Citizenship"
+  category: project
+  summary: "Digital Citizenship is a research project on digital literacy, digital wellbeing, and collaborative problem solving among students, coordinated by The University of Hong Kong. I was in charge of independently developing a multiplayer puzzle-solving educational serious game for CPS assessment, using Unreal Engine 5."
+  tags:
+    - HCI
+    - EDUCATION
+  video:
+    src: /res/d-city.mp4
+    label: "Digital Citizenship video"
+  link:
+    label: "Project page"
+    url: "https://trs2022.hku.hk/2022/09/29/learning-and-assessment-for-digital-citizenship/"
+  related_publications:
+    - year: "2025"
+      title: "Ready or not? Investigating in-service teachers' integration of learning analytics dashboard for assessing students' collaborative problem solving in K-12 classrooms"
+      url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gLL_wO4AAAAJ&citation_for_view=gLL_wO4AAAAJ:9yKSN-GCB0IC"
+    - year: "2025"
+      title: "Multimodal learning analytics for game-based assessment of collaborative problem solving skills among young students"
+      url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gLL_wO4AAAAJ&citation_for_view=gLL_wO4AAAAJ:Tyk-4Ss8FVUC"
+    - year: "2024"
+      title: "Adopt or abandon: Facilitators and barriers of in-service teachers' integration of game learning analytics in K-12 classrooms?"
+      url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gLL_wO4AAAAJ&citation_for_view=gLL_wO4AAAAJ:d1gkVwhDpl0C"
+    - year: "2024"
+      title: "Towards multimodal learning analytics of game-based collaborative problem solving among primary school students"
+      url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gLL_wO4AAAAJ&citation_for_view=gLL_wO4AAAAJ:2osOgNQ5qMEC"
+  comment: ""
+
 - year: "2015"
   title: "Strands Project (Robotics)"
+  category: project
   summary: "I was an undergraduate student in BSc Computer Science at University of Birmingham back in the days. I don't think I have done much in this project, but it is the first research project I have ever participated in. I actually learnt a lot by watching other people and robots. This project inspired me to put a lot of effort into robotics and the field of doing research. Our team ended up scoring 2nd prize in the UK-RAS field robotics challenge in 2016."
   tags:
     - ROBOTICS

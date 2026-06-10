@@ -1,9 +1,11 @@
 - label: Home
   url: /
-- label: Research & Publication
+- label: Publication & Projects
   url: /research.html
 - label: Teaching & Workshops
   url: /teaching.html
+- label: Skills & Methods
+  url: /skills.html
 - label: Random Works Memory
   url: /works.html
 - label: About Me

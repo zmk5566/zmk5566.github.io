@@ -20,9 +20,12 @@ nav_color: w3-deep-orange
   </p>
 </section>
 
-<section class="entry-list" aria-labelledby="teaching-list-title">
-  <h2 id="teaching-list-title" class="section-heading w3-deep-orange">Teaching &amp; Workshops</h2>
-  {% for item in site.data.teaching %}
+{% assign workshop_items = site.data.teaching | where: "category", "workshop" %}
+{% assign teaching_items = site.data.teaching | where: "category", "teaching" %}
+
+<section class="entry-list" aria-labelledby="workshop-list-title">
+  <h2 id="workshop-list-title" class="section-heading w3-purple">Workshops</h2>
+  {% for item in workshop_items %}
     <article class="entry">
       <div>
         <span class="entry-year w3-orange">{{ item.year }}</span>
@@ -30,13 +33,41 @@ nav_color: w3-deep-orange
       <div>
         <h2>{{ item.title }}</h2>
         {% if item.images %}
-          <div class="media-grid">
+          <div class="media-grid{% if item.media_layout %} media-grid--{{ item.media_layout }}{% endif %}">
             {% for image in item.images %}
               <img src="{{ image.src | relative_url }}" alt="{{ image.alt }}" loading="lazy">
             {% endfor %}
           </div>
         {% endif %}
         <p>{{ item.summary }}</p>
+        {% if item.link %}
+          <p><a href="{{ item.link.url }}" rel="noopener">{{ item.link.label }}</a></p>
+        {% endif %}
+      </div>
+    </article>
+  {% endfor %}
+</section>
+
+<section class="entry-list" aria-labelledby="teaching-list-title">
+  <h2 id="teaching-list-title" class="section-heading w3-deep-orange">Teaching</h2>
+  {% for item in teaching_items %}
+    <article class="entry">
+      <div>
+        <span class="entry-year w3-orange">{{ item.year }}</span>
+      </div>
+      <div>
+        <h2>{{ item.title }}</h2>
+        {% if item.images %}
+          <div class="media-grid{% if item.media_layout %} media-grid--{{ item.media_layout }}{% endif %}">
+            {% for image in item.images %}
+              <img src="{{ image.src | relative_url }}" alt="{{ image.alt }}" loading="lazy">
+            {% endfor %}
+          </div>
+        {% endif %}
+        <p>{{ item.summary }}</p>
+        {% if item.link %}
+          <p><a href="{{ item.link.url }}" rel="noopener">{{ item.link.label }}</a></p>
+        {% endif %}
       </div>
     </article>
   {% endfor %}

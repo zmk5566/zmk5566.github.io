@@ -1,0 +1,73 @@
+- title: "Robotics"
+  color: "w3-green"
+  summary: "Robotic systems as physical agents, instruments, and performance partners."
+  tags:
+    - "ROS"
+    - "probabilistic robotics"
+    - "embedded systems"
+    - "sensor-actuator prototyping"
+  used_in:
+    - "musical robotics"
+    - "interactive hardware studies"
+
+- title: "DMI Design"
+  color: "w3-blue"
+  summary: "Digital musical instrument design for performance interfaces, sound behavior, and embodied control."
+  tags:
+    - "performance interface design"
+    - "audio hardware"
+    - "DSP theory"
+    - "instrument interaction"
+  used_in:
+    - "Qianji"
+    - "Zhu Nao"
+
+- title: "Instrument Making"
+  color: "w3-orange"
+  summary: "Hands-on fabrication for sound objects, workshop instruments, and contact-based listening."
+  tags:
+    - "woodworking"
+    - "fabrication"
+    - "contact microphones"
+    - "woodwind experiments"
+  used_in:
+    - "Choose Your Own Contact (Microphone)"
+    - "Wood Wind Workshop"
+
+- title: "Games & Interactive Systems"
+  color: "w3-red"
+  summary: "Game-engine and interaction work for playable systems, stage tools, and odd hardware/software situations."
+  tags:
+    - "Unreal Engine"
+    - "game-related hardware"
+    - "game-related software"
+    - "interaction prototyping"
+  used_in:
+    - "game-like performance systems"
+    - "interactive prototypes"
+
+- title: "Creative Coding"
+  color: "w3-purple"
+  summary: "Small, fast, and sometimes messy code for sound, image, web interaction, and teaching."
+  tags:
+    - "Pure Data"
+    - "p5.js"
+    - "TouchDesigner"
+    - "Web Audio API"
+    - "Faust"
+  used_in:
+    - "workshops"
+    - "sound and web prototypes"
+
+- title: "Wearables & Textile Interfaces"
+  color: "w3-pink"
+  summary: "Early experiments with wearable and textile interfaces, shaped by sewing, embroidery, printing, and pet-centered prototyping."
+  tags:
+    - "wearables"
+    - "textile interfaces"
+    - "basic sewing machine operation"
+    - "basic textile printing"
+    - "pet-centered prototyping"
+  used_in:
+    - "dog clothing experiments"
+    - "pet wearable prototypes"

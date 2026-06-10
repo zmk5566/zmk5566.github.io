@@ -1,0 +1,118 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[letterpaper,margin=0.75in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[hidelinks]{hyperref}
+\usepackage{array}
+\usepackage{CJKutf8}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+\newcommand{\cvsection}[1]{%
+  \vspace{1.05em}%
+  {\bfseries\MakeUppercase{#1}}\par
+  \vspace{0.2em}%
+  \hrule height 0.4pt
+  \vspace{0.55em}%
+}
+
+\newcommand{\education}[4]{%
+  \begin{tabular*}{\textwidth}{@{\hspace{1.1em}}l@{\extracolsep{\fill}}r@{}}
+    #1 & #2 \\
+    #3 &
+  \end{tabular*}\par
+  \vspace{0.75em}
+}
+
+\newcommand{\yearitem}[2]{%
+  \hspace{1.1em}\parbox[t]{0.96\textwidth}{\raggedright #1 - #2}\par
+}
+
+\newcommand{\dateditem}[2]{%
+  \hspace{1.1em}%
+  \begin{minipage}[t]{0.17\textwidth}\raggedright #1\end{minipage}%
+  \hspace{0.6em}%
+  \begin{minipage}[t]{0.74\textwidth}\raggedright #2\end{minipage}\par
+}
+
+\begin{document}
+\begin{CJK*}{UTF8}{bsmi}
+
+\begin{center}
+  {\Large\bfseries ZHENGYANG MA}\\[0.75em]
+  Also Known As Kenny Ma\\[0.25em]
+  \href{mailto:zmaaf@connect.ust.hk}{zmaaf@connect.ust.hk}
+  \quad$\cdot$\quad
+  \href{mailto:kenny.ma.2312@gmail.com}{kenny.ma.2312@gmail.com}\\[0.25em]
+  \href{https://zmk5566.github.io}{zmk5566.github.io}
+\end{center}
+
+\cvsection{Education}
+
+\education
+  {University of Science and Technology, Hong Kong}
+  {Sept 2020 -- Present}
+  {PhD Computational Media and Arts}
+  {}
+
+\education
+  {China Academy of Art, China}
+  {August 2017 -- July 2020}
+  {Master in Arts, School of Intermedia Art}
+  {}
+
+\education
+  {University of Birmingham, UK}
+  {Sept 2012 -- July 2016}
+  {Bachelor of Science, Computer Science}
+  {}
+
+\cvsection{Areas and Methods}
+
+\hspace{1.1em}\parbox{0.96\textwidth}{\raggedright
+\textbf{Robotics} -- Robot Operating System (ROS), probabilistic robotics, embedded systems\\[0.2em]
+\textbf{Musical Instrument Design} -- DSP theory, audio hardware design, instrument fabrication, woodworking\\[0.2em]
+\textbf{Games \& Interactive Systems} -- Unreal Engine, game-related hardware and software design\\[0.2em]
+\textbf{Creative Coding} -- Pure Data, p5.js, TouchDesigner, audiovisual prototyping
+}
+
+\cvsection{Research Interests}
+
+\hspace{1.1em}DMI Design, human-AI collaboration, musical robotics\par
+\vspace{0.35em}
+\hspace{1.1em}Instrument design, gamification, creative tools for situated performance
+
+\cvsection{Selected Exhibitions/Performances}
+
+\yearitem{\textbf{2026}}{The Discourse of an Instrument, and a Thousand Machines, Rich Mix Cultural Centre, London, UK}
+\yearitem{\textbf{2024}}{竹腦\ (Zhu Nao), TivoliVredenburg, Utrecht, Netherlands}
+\yearitem{\textbf{2019}}{Future's Future (solo exhibition), Martin Goya Business, Hangzhou}
+\yearitem{\textbf{2018}}{The Bi-City (Shenzhen and HongKong) Biennale of Urbanism (UABB) Shenzhen}
+\yearitem{\textbf{2017}}{SONART 5.0, Live, China Academy of Art, Hangzhou}
+\yearitem{\textbf{2017}}{Detached Organ, Live, MUSICACOUSTICA-BEIJING, Central Conservatory of Music, Beijing}
+
+\cvsection{Workshops}
+
+\yearitem{\textbf{2026}}{Choose Your Own Contact (Microphone), CMA Open Lab}
+\yearitem{\textbf{2025}}{Wood Wind Workshop, HKUST(GZ)}
+\yearitem{\textbf{2025}}{Feedback... and Musical Instrument Design! A Choose-Your-Own-Adventure Workshop, Zhejiang Conservatory of Music}
+\yearitem{\textbf{2017}}{Hybrid Sound Installations (with Yuri Kuzmin), China Academy of Art}
+\yearitem{\textbf{2016}}{Creative Coding for Musicians, Zhejiang Conservatory of Music}
+
+\cvsection{Honors and Awards:}
+
+\dateditem{2020}{Professor Samuel Chanson Scholarship - Best Teaching Assistant Award, HKUST}
+\dateditem{2018}{Postgraduate Excellence Scholarship, China Academy of Art, Hangzhou}
+\dateditem{2016}{3rd in UK-RAS Field Robotics Team Challenge, Sheffield}
+
+\cvsection{Working Experiences:}
+
+\dateditem{2025.03--2026.03}{Research Assistant to Mark Grimshaw-Aagaard, The Hong Kong University of Science and Technology (Guangzhou)}
+\dateditem{2024.06--2025.02}{Research Assistant to Raul Masu, The Hong Kong University of Science and Technology (Guangzhou)}
+\dateditem{2017--2018}{Virtual Reality Lab Manager, China Academy of Art, Hangzhou}
+\dateditem{2015--2016}{Creative Coding for Kids Working Teaching Assistant (Charlie Pinder), Birmingham}
+
+\end{CJK*}
+\end{document}

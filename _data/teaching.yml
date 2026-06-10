@@ -1,5 +1,17 @@
+- year: "2026"
+  title: "Choose Your Own Contact (Microphone) -- CMA Open Lab"
+  category: workshop
+  summary: "A DIY contact microphone workshop about building contact microphones and using them in a campus sound walk."
+  images:
+    - src: /res/contact-mic-workshop.jpg
+      alt: "Contact microphone connected to a Zoom field recorder"
+  link:
+    label: "Workshop page"
+    url: "https://zmk5566.github.io/choose-your-own-contact-mic/"
+
 - year: "2025"
   title: "Wood Wind Workshop -- HKUST(GZ)"
+  category: workshop
   summary: "A hands-on workshop at HKUST(GZ) about making your own woodwind instrument."
   images:
     - src: /res/wood-wind-workshop.jpg
@@ -7,28 +19,35 @@
 
 - year: "2025"
   title: "Feedback... and musical instrument design! -- a choose-your-own adventure workshop"
+  category: workshop
   summary: "A workshop at Zhejiang Conservatory of Music, hosted with Yuri Kuzmin, with Kevin Zhang as guest."
 
 - year: "2023"
   title: "EMIA 2010B - T1 Cross-disciplinary Seminar: Digital Media and Creative Arts -- Teaching Assistant"
+  category: teaching
   summary: "A TA job that I pulled off with telematic performance and 50 more minutes on cosmotechnics."
 
 - year: "2020-2021"
   title: "COMP 4021 Internet Computing -- Teaching Assistant -- HKUST"
+  category: teaching
   summary: "Professor Dik Lee was leading this course and I served as one of his teaching assistants during the online-teaching period. I got the Best TA award for this one."
 
 - year: "2018-2019"
   title: "COMP1022Q Introduction to Computing with Excel -- Teaching Assistant -- HKUST"
+  category: teaching
   summary: "Honestly I don't really understand why this course even existed in 2020, but I have done my duty."
 
 - year: "2018-2019"
   title: "The Literature of the Pre-Qin and the Two-Han Dynasties 先秦两汉原典导读 -- Teaching Assistant -- China Academy of Art"
+  category: teaching
   summary: "It's a Master-level fine art course instructed by Hongli Wang (王宏理). My main contribution for this course as a TA was successful pest control in the classroom. It was a bad season."
 
 - year: "2017"
   title: "Workshop: Hybrid Sound Installations (with Yuri Kuzmin), China Academy of Art"
+  category: workshop
   summary: "We all think it's a bad workshop name, but it was too late to recall any posters so we stuck with it till the end. In this workshop, we did a lot of hardware bending and creative coding to help artists create their own sound installations."
 
 - year: "2016"
   title: "Workshop: Creative Coding for Musicians, Zhejiang Conservatory of Music"
+  category: workshop
   summary: "It was a week long workshop with inspiring students from Zhejiang Conservatory of Music. Very positive feedback from the students and my collaborator, Ruilei Duan, though we were physically tired after a full week run of this topic."

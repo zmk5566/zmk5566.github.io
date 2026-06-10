@@ -7,7 +7,7 @@ nav_color: w3-pink
 <header class="page-header w3-red">
   <h1>Random Works</h1>
   <p>
-    I have done a few fun projects in the past. If I look back and don't feel too bad about myself, I will list them here.
+    I have done a few fun (art) projects in the past. If I look back and don't feel too bad about myself, I will list them here.
   </p>
 </header>
 
@@ -23,7 +23,7 @@ nav_color: w3-pink
         {% if item.images %}
           <div class="media-grid{% if item.media_layout %} media-grid--{{ item.media_layout }}{% endif %}">
             {% for image in item.images %}
-              <img{% if image.wide %} class="media-wide"{% endif %} src="{{ image.src | relative_url }}" alt="{{ image.alt }}" loading="lazy">
+              <img{% if image.wide or image.square %} class="{% if image.wide %}media-wide{% endif %}{% if image.wide and image.square %} {% endif %}{% if image.square %}media-square{% endif %}"{% endif %} src="{{ image.src | relative_url }}" alt="{{ image.alt }}" loading="lazy">
             {% endfor %}
           </div>
         {% endif %}

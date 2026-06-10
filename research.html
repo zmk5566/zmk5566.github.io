@@ -1,24 +1,104 @@
 ---
-title: "Research & Publication"
-description: "Research and publication by Kenny Ma."
+title: "Publication & Projects"
+description: "Publications and projects by Kenny Ma."
 nav_color: w3-yellow
 ---
 
 <header class="page-header w3-blue">
-  <h1>Research &amp; Publication</h1>
+  <h1>Publication &amp; Projects</h1>
   <p>
-    I am finally qualified as a PhD candidate this year. Hope I can get more hang of doing research in the up-coming future.
+    Well, my Google Scholar page is <a href="https://scholar.google.com/citations?user=gLL_wO4AAAAJ&amp;hl=en" rel="noopener">here</a>. It is very self-explainable these days. I have been actively publishing papers this year, so a few more publications are expected this year.
   </p>
 </header>
 
-<section class="entry-list" aria-labelledby="research-list-title">
-  <h2 id="research-list-title" class="section-heading w3-blue">Research &amp; Publication</h2>
-  {% for item in site.data.research %}
+{% assign project_items = site.data.research | where: "category", "project" %}
+
+<section class="entry-list" aria-labelledby="project-list-title">
+  <h2 id="project-list-title" class="section-heading w3-blue">(selected) Projects</h2>
+  {% for item in project_items %}
     <article class="entry">
       <div>
         <span class="entry-year w3-yellow">{{ item.year }}</span>
         {% if item.tags %}
-          <div class="entry-tags" aria-label="Research tags">
+          <div class="entry-tags" aria-label="Project tags">
+            {% for tag in item.tags %}
+              <span class="entry-tag entry-tag--{{ tag | downcase }}">{{ tag }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+      <div>
+        <h2>{{ item.title }}</h2>
+        {% if item.authors %}
+          {% assign authors_html = item.authors %}
+          {% if item.corresponding_author %}
+            {% assign authors_html = authors_html | replace: item.corresponding_author, "__SELF_CORRESPONDING__" %}
+          {% endif %}
+          {% assign authors_html = authors_html | replace: "Z Ma", "<mark class='author-self'>Z Ma</mark>" | replace: "Z MA", "<mark class='author-self'>Z MA</mark>" %}
+          {% assign authors_html = authors_html | replace: "__SELF_CORRESPONDING__", "<mark class='author-self'>Z Ma*</mark>" %}
+          <p class="entry-meta">{{ authors_html }}</p>
+        {% endif %}
+        {% if item.status %}
+          <p><span class="entry-status">{{ item.status }}</span></p>
+        {% endif %}
+        {% if item.venue %}
+          <p>{{ item.venue }}</p>
+        {% endif %}
+        {% if item.summary %}
+          <p>{{ item.summary }}</p>
+        {% endif %}
+        {% if item.animation == "hexblocks-ambient" %}
+          <div class="hexblocks-ambient-stage" data-hexblocks-ambient aria-label="HexBlocks first-screen animation"></div>
+        {% endif %}
+        {% if item.images %}
+          <div class="media-grid project-media-grid{% if item.media_layout %} media-grid--{{ item.media_layout }}{% endif %}">
+            {% for image in item.images %}
+              <img{% if image.wide or image.square %} class="{% if image.wide %}media-wide{% endif %}{% if image.wide and image.square %} {% endif %}{% if image.square %}media-square{% endif %}"{% endif %} src="{{ image.src | relative_url }}" alt="{{ image.alt }}" loading="lazy">
+            {% endfor %}
+          </div>
+        {% endif %}
+        {% if item.video %}
+          <video class="work-video" controls preload="metadata" aria-label="{{ item.video.label }}">
+            <source src="{{ item.video.src | relative_url }}" type="video/mp4">
+            <a href="{{ item.video.src | relative_url }}">{{ item.video.label }}</a>
+          </video>
+        {% endif %}
+        {% if item.related_publications %}
+          <div class="related-publications">
+            <h3>Related publications</h3>
+            <ul>
+              {% for publication in item.related_publications %}
+                <li>
+                  <span>{{ publication.year }}</span>
+                  <a href="{{ publication.url }}" rel="noopener">{{ publication.title }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endif %}
+        {% if item.comment and item.comment != "" %}
+          <p class="entry-comment">{{ item.comment }}</p>
+        {% endif %}
+        {% if item.link %}
+          <p><a href="{{ item.link.url }}" rel="noopener">{{ item.link.label }}</a></p>
+        {% endif %}
+      </div>
+    </article>
+  {% endfor %}
+</section>
+
+<script src="{{ '/res/hexblocks-preview/hexblocks-scenes.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/hexblocks-ambient.js' | relative_url }}" defer></script>
+
+<section class="entry-list" aria-labelledby="publication-list-title">
+  <h2 id="publication-list-title" class="section-heading w3-blue">Publications</h2>
+  {% for item in site.data.research %}
+    {% unless item.category == "project" %}
+    <article class="entry">
+      <div>
+        <span class="entry-year w3-yellow">{{ item.year }}</span>
+        {% if item.tags %}
+          <div class="entry-tags" aria-label="Publication tags">
             {% for tag in item.tags %}
               <span class="entry-tag entry-tag--{{ tag | downcase }}">{{ tag }}</span>
             {% endfor %}
@@ -53,5 +133,6 @@ nav_color: w3-yellow
         {% endif %}
       </div>
     </article>
+    {% endunless %}
   {% endfor %}
 </section>

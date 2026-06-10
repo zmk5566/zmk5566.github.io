@@ -1,12 +1,11 @@
 - year: "2026"
   title: "The Discourse of an Instrument, and a Thousand Machines 弦语千机"
   summary: "A Guqin performance powered by Qianji, turning audience smartphones into a distributed luminous and acoustic field. The largest live array reached 421 audience phones, which is honestly a lot of tiny machines behaving together."
-  media_layout: split
+  media_layout: inline-left
   images:
-    - src: /res/qianji-teaser.jpg
-      alt: "Audience smartphones joined to the Qianji framework during the performance"
     - src: /res/qianji-guqin-stage-teaser.jpg
       alt: "Guqin performer on stage during The Discourse of an Instrument, and a Thousand Machines"
+      square: true
   link:
     label: "Project page"
     url: "https://zmk5566.github.io/qianji/"
@@ -55,7 +54,7 @@
 
 - year: "2016"
   title: "Detached Organ"
-  summary: "A contemporary music piece in collaboration with Ruilei Duan. With help from computer vision and robotics, we were able to turn the audience's phones into instruments that could be instructed, so everyone could participate."
+  summary: "A contemporary music piece in collaboration with Ruilei Duan."
   video:
     src: /res/detached_organ(2016).mp4
     label: "Detached Organ video"
