@@ -59,15 +59,15 @@
     - "workshops"
     - "sound and web prototypes"
 
-- title: "Wearables & Textile Interfaces"
+- title: "Wearables & Textile Making"
   color: "w3-pink"
-  summary: "Early experiments with wearable and textile interfaces, shaped by sewing, embroidery, printing, and pet-centered prototyping."
+  summary: "Early wearable and textile-making experiments, shaped by basic sewing, embroidery-machine use, textile printing, and pet-centered prototyping."
   tags:
-    - "wearables"
-    - "textile interfaces"
+    - "wearable experiments"
     - "basic sewing machine operation"
+    - "basic embroidery machine operation"
     - "basic textile printing"
     - "pet-centered prototyping"
   used_in:
     - "dog clothing experiments"
-    - "pet wearable prototypes"
+    - "early pet wearable prototypes"
