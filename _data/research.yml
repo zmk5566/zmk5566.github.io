@@ -1,4 +1,16 @@
 - year: "2026"
+  title: "Han-Vibe: Culturally-Situated Multimodal Interaction for AI-Mediated Live Music Performance"
+  authors: "Z Ma"
+  venue: "Proceedings of the 2026 International Conference on Multimodal Interaction (ICMI '26), Napoli, Italy"
+  tags:
+    - HCI
+    - MUSIC
+  link:
+    label: "DOI"
+    url: "https://doi.org/10.1145/3776574.3831136"
+  comment: ""
+
+- year: "2026"
   title: 'Qianji: A Resilient Framework for Orchestrating "A Thousand Machines" in Distributed Performance'
   authors: "Ruilei Duan, Z Ma"
   corresponding_author: "Z Ma"
