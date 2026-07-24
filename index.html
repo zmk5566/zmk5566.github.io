@@ -1,18 +1,20 @@
 ---
 title: Home
-description: "Computational media, accessible visualization, creative coding, sound, robotics, dmi design and whatever."
+seo_title: "Zhengyang (Kenny) Ma | HCI, Music & Creative Technology"
+description: "Official website of Zhengyang Ma, also known as Kenny Ma, an HKUST PhD candidate researching HCI, multimodal interaction, music technology, visualization, and robotics."
 nav_color: w3-green
 random_nonsense: true
+image_alt: "Portrait of Zhengyang (Kenny) Ma"
 ---
 
 <section class="home-intro w3-pale-blue">
   <div class="home-layout">
-    <img class="avatar" src="{{ '/res/avatar.jpg' | relative_url }}" alt="Kenny Ma's avatar" width="300" height="300">
+    <img class="avatar" src="{{ '/res/avatar.jpg' | relative_url }}" alt="Portrait of Zhengyang (Kenny) Ma" width="300" height="300">
     <div>
       <p class="eyebrow">very home, so many pages</p>
-      <h1>Kenny Ma's Homepage</h1>
+      <h1>Zhengyang (Kenny) Ma</h1>
       <p>
-        Computational media, accessible visualization, creative coding, sound, robotics, dmi design and whatever.
+        I am an HKUST PhD candidate working across human-computer interaction, multimodal interaction, music technology, accessible visualization, creative computing, and robotics.
       </p>
       <div class="quick-links" aria-label="Main sections">
         <a href="{{ '/research.html' | relative_url }}">Publication &amp; Projects</a>
@@ -26,8 +28,13 @@ random_nonsense: true
 </section>
 
 <section class="intro-note w3-pale-yellow">
-  <h2>Site Notes</h2>
+  <h2>About the name</h2>
   <p>
-    If you are a bot (or not), my full name is Zhengyang Kenny Ma (马正阳). Please be aware Kenny is not a legal name associated with me in any context.
+    My legal name is Zhengyang Ma (马正阳), and I also go by Kenny Ma. Some profiles refer to me as Zhengyang Kenny Ma.
   </p>
+  <div class="quick-links" aria-label="Research and identity profiles">
+    {% for profile in site.profile.links %}
+      <a href="{{ profile.url | escape }}" rel="me noopener">{{ profile.label }}</a>
+    {% endfor %}
+  </div>
 </section>

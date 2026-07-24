@@ -1,10 +1,32 @@
-title: "Kenny Ma's Homepage"
-description: "Personal homepage of Kenny Ma, covering computational media, accessible visualization, creative coding, research, teaching, and random works."
+title: "Zhengyang (Kenny) Ma"
+description: "Official website of Zhengyang Ma, also known as Kenny Ma, an HKUST PhD candidate working across HCI, multimodal interaction, music technology, visualization, and robotics."
 url: "https://zmk5566.github.io"
 baseurl: ""
 lang: "en"
-author: "Kenny Ma"
+author: "Zhengyang Ma"
 email: "zmaaf@connect.ust.hk"
+
+profile:
+  display_name: "Zhengyang (Kenny) Ma"
+  given_name: "Zhengyang"
+  family_name: "Ma"
+  alternate_names:
+    - "Kenny Ma"
+    - "Zhengyang Kenny Ma"
+    - "马正阳"
+  job_title: "PhD candidate in Computational Media and Arts"
+  description: "Zhengyang Ma, also known as Kenny Ma, is an HKUST researcher working across human-computer interaction, multimodal interaction, music technology, visualization, creative computing, and robotics."
+  links:
+    - label: "Google Scholar"
+      url: "https://scholar.google.com/citations?user=gLL_wO4AAAAJ&hl=en"
+    - label: "ORCID"
+      url: "https://orcid.org/0000-0003-3149-5598"
+    - label: "DBLP"
+      url: "https://dblp.uni-trier.de/pid/227/5933.html"
+    - label: "GitHub"
+      url: "https://github.com/zmk5566"
+    - label: "HKUST profile"
+      url: "https://cma.hkust-gz.edu.cn/research-students/kenny-ma-3/"
 
 defaults:
   - scope:
@@ -16,3 +38,5 @@ defaults:
 exclude:
   - README.md
   - .DS_Store
+  - output
+  - temp
