@@ -6,9 +6,9 @@ nav_color: w3-yellow
 ---
 
 <header class="page-header w3-blue">
-  <h1>Publications &amp; Projects by Zhengyang Kenny Ma</h1>
+  <h1>Publication &amp; Projects</h1>
   <p>
-    My research spans human-computer interaction, multimodal interaction, music technology, creative systems, education, and robotics. See <a href="https://scholar.google.com/citations?user=gLL_wO4AAAAJ&amp;hl=en" rel="me noopener">Zhengyang Kenny Ma on Google Scholar</a> for citation details.
+    Well, my Google Scholar page is <a href="https://scholar.google.com/citations?user=gLL_wO4AAAAJ&amp;hl=en" rel="noopener">here</a>. It is very self-explainable these days. I have been actively publishing papers this year, so a few more publications are expected this year.
   </p>
 </header>
 
@@ -35,8 +35,8 @@ nav_color: w3-yellow
           {% if item.corresponding_author %}
             {% assign authors_html = authors_html | replace: item.corresponding_author, "__SELF_CORRESPONDING__" %}
           {% endif %}
-          {% assign authors_html = authors_html | replace: "Z Ma", "<mark class='author-self'>Zhengyang Ma</mark>" | replace: "Z MA", "<mark class='author-self'>Zhengyang Ma</mark>" %}
-          {% assign authors_html = authors_html | replace: "__SELF_CORRESPONDING__", "<mark class='author-self'>Zhengyang Ma*</mark>" %}
+          {% assign authors_html = authors_html | replace: "Z Ma", "<mark class='author-self'>Z Ma</mark>" | replace: "Z MA", "<mark class='author-self'>Z MA</mark>" %}
+          {% assign authors_html = authors_html | replace: "__SELF_CORRESPONDING__", "<mark class='author-self'>Z Ma*</mark>" %}
           <p class="entry-meta">{{ authors_html }}</p>
         {% endif %}
         {% if item.status %}
@@ -113,8 +113,8 @@ nav_color: w3-yellow
           {% if item.corresponding_author %}
             {% assign authors_html = authors_html | replace: item.corresponding_author, "__SELF_CORRESPONDING__" %}
           {% endif %}
-          {% assign authors_html = authors_html | replace: "Z Ma", "<mark class='author-self'>Zhengyang Ma</mark>" | replace: "Z MA", "<mark class='author-self'>Zhengyang Ma</mark>" %}
-          {% assign authors_html = authors_html | replace: "__SELF_CORRESPONDING__", "<mark class='author-self'>Zhengyang Ma*</mark>" %}
+          {% assign authors_html = authors_html | replace: "Z Ma", "<mark class='author-self'>Z Ma</mark>" | replace: "Z MA", "<mark class='author-self'>Z MA</mark>" %}
+          {% assign authors_html = authors_html | replace: "__SELF_CORRESPONDING__", "<mark class='author-self'>Z Ma*</mark>" %}
           <p class="entry-meta">{{ authors_html }}</p>
         {% endif %}
         {% if item.status %}
