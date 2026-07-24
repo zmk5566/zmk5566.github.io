@@ -1,21 +1,21 @@
-title: "Zhengyang (Kenny) Ma"
-description: "Official website of Zhengyang Ma, also known as Kenny Ma, an HKUST PhD candidate working across HCI, multimodal interaction, music technology, visualization, and robotics."
+title: "Zhengyang Kenny Ma"
+description: "Official website of Zhengyang Kenny Ma, an HKUST PhD candidate working across HCI, multimodal interaction, music technology, visualization, and robotics."
 url: "https://zmk5566.github.io"
 baseurl: ""
 lang: "en"
-author: "Zhengyang Ma"
+author: "Zhengyang Kenny Ma"
 email: "zmaaf@connect.ust.hk"
 
 profile:
-  display_name: "Zhengyang (Kenny) Ma"
+  display_name: "Zhengyang Kenny Ma"
   given_name: "Zhengyang"
   family_name: "Ma"
   alternate_names:
+    - "Zhengyang Ma"
     - "Kenny Ma"
-    - "Zhengyang Kenny Ma"
     - "马正阳"
   job_title: "PhD candidate in Computational Media and Arts"
-  description: "Zhengyang Ma, also known as Kenny Ma, is an HKUST researcher working across human-computer interaction, multimodal interaction, music technology, visualization, creative computing, and robotics."
+  description: "Zhengyang Kenny Ma is an HKUST researcher working across human-computer interaction, multimodal interaction, music technology, visualization, creative computing, and robotics. His legal name is Zhengyang Ma, and he also goes by Kenny Ma."
   links:
     - label: "Google Scholar"
       url: "https://scholar.google.com/citations?user=gLL_wO4AAAAJ&hl=en"

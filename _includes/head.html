@@ -13,7 +13,7 @@
 {%- assign webpage_id = canonical_url | append: "#webpage" -%}
 {%- assign meta_image = page.image | default: "/res/avatar.jpg" | absolute_url -%}
 {%- assign person_image = "/res/avatar.jpg" | absolute_url -%}
-{%- assign meta_image_alt = page.image_alt | default: "Portrait of Zhengyang (Kenny) Ma" -%}
+{%- assign meta_image_alt = page.image_alt | default: "Portrait of Zhengyang Kenny Ma" -%}
 {%- assign profile_urls = site.profile.links | map: "url" -%}
 <head>
   <meta charset="utf-8">
@@ -103,7 +103,7 @@
         "alternateName": [
           "Zhengyang Ma",
           "Kenny Ma",
-          "Zhengyang Kenny Ma"
+          "马正阳"
         ],
         "inLanguage": {{ site.lang | jsonify }},
         "publisher": {
